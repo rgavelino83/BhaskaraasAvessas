@@ -8,11 +8,11 @@ public class BhaskaraAsAvesas {
        Scanner console = new Scanner(System.in);
        //ENTRADA
        System.out.print("X1: ");
-       double x1 = console.nextDouble();
+       double x1 = Double.parseDouble(console.nextLine());
        System.out.print("X2: ");
-       double x2 = console.nextDouble();
+       double x2 = Double.parseDouble(console.nextLine());
        System.out.print("C: ");
-       double c = console.nextDouble();
+       double c = Double.parseDouble(console.nextLine());
        //PROCESSAMENTO
        double s = x1 + x2;
        double p = x1 * x2;
